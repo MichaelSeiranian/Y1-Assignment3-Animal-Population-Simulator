@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Weather
+comment0.text=\r\n\ Controls\ weather\ state\ for\ the\ Simulator\ Class.\r\n\ \r\n\ Weather\ can\ be\ Sunny,\ Cloudy\ or\ Rainy.\r\n\ Weather\ affects\ how\ much\ plants\ grow.\r\n\r\n\ @author\ Dvin\ Amasi\ Hartoonian\ (K21049232),\ William\ Atta\ (K21097986)\r\n\ and\ Michael\ Seiranian\ (K20127931)\r\n\ @version\ 2022.02.27\r\n
+comment1.params=
+comment1.target=Weather()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Weather\r\n
+comment2.params=
+comment2.target=boolean\ isSunny()
+comment3.params=
+comment3.target=boolean\ isCloudy()
+comment4.params=
+comment4.target=boolean\ isRainy()
+comment5.params=
+comment5.target=void\ setSunny()
+comment6.params=
+comment6.target=void\ setCloudy()
+comment7.params=
+comment7.target=void\ setRainy()
+comment8.params=
+comment8.target=void\ changeWeather()
+numComments=9

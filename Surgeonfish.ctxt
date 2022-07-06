@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Surgeonfish
+comment0.text=\r\n\ A\ simple\ model\ of\ a\ Surgeonfish.\r\n\ Surgeonfish\ age,\ move,\ breed,\ and\ die.\r\n\r\n\ @author\ Dvin\ Amasi\ Hartoonian\ (K21049232),\ William\ Atta\ (K21097986)\r\n\ and\ Michael\ Seiranian\ (K20127931)\r\n\ @version\ 2022.02.27\ (1)\r\n
+comment1.params=randomAge\ field\ location
+comment1.target=Surgeonfish(boolean,\ Field,\ Location)
+comment1.text=\r\n\ Create\ a\ new\ surgeonfish.\ A\ surgeonfish\ may\ be\ created\ with\ age\r\n\ zero\ (a\ new\ born)\ or\ with\ a\ random\ age.\r\n\ \r\n\ @param\ randomAge\ If\ true,\ the\ surgeonfish\ will\ have\ a\ random\ age.\r\n\ @param\ field\ The\ field\ currently\ occupied.\r\n\ @param\ location\ The\ location\ within\ the\ field.\r\n
+comment2.params=newSurgeonfish\ step
+comment2.target=void\ act(java.util.List,\ int)
+comment2.text=\r\n\ This\ is\ what\ the\ lobster\ does\ most\ of\ the\ time\ -\ it\ swims\ \r\n\ around.\ Sometimes\ it\ will\ breed\ or\ die\ of\ old\ age.\r\n\ @param\ newLobsters\ A\ list\ to\ return\ newly\ born\ lobsters.\r\n
+comment3.params=
+comment3.target=Location\ findFood()
+comment3.text=\r\n\ Look\ for\ algae\ adjacent\ to\ the\ current\ location.\r\n\ Only\ the\ first\ algae\ is\ eaten.\r\n\ @return\ Where\ food\ was\ found,\ or\ null\ if\ it\ wasn't.\r\n
+comment4.params=newSurgeonfish
+comment4.target=void\ giveBirth(java.util.List)
+comment4.text=\r\n\ Check\ whether\ or\ not\ this\ lobster\ is\ to\ give\ birth\ at\ this\ step.\r\n\ New\ births\ will\ be\ made\ into\ free\ adjacent\ locations.\r\n\ @param\ newLobsters\ A\ list\ to\ return\ newly\ born\ lobsters.\r\n
+comment5.params=
+comment5.target=boolean\ canBreed()
+comment6.params=
+comment6.target=int\ getMaxAge()
+comment7.params=
+comment7.target=double\ getBreedingProbability()
+comment8.params=
+comment8.target=int\ getMaxLitterSize()
+comment9.params=
+comment9.target=int\ getBreedingAge()
+numComments=10

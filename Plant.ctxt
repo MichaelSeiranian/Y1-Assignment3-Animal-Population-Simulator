@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Plant
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Plant\ here.\r\n\r\n\ @author\ Dvin\ Amasi\ Hartoonian\ (K21049232),\ William\ Atta\ (K21097986)\r\n\ and\ Michael\ Seiranian\ (K20127931)\r\n\ @version\ 2022.02.27\r\n
+comment1.params=field\ location
+comment1.target=Plant(Field,\ Location)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Plant\r\n
+comment2.params=weather\ step
+comment2.target=void\ act(Weather,\ int)
+comment3.params=
+comment3.target=int\ getMaxGrowthLevel()
+comment4.params=
+comment4.target=java.util.Random\ getRandom()
+comment5.params=
+comment5.target=int\ getGrowthLevel()
+comment6.params=newLocation
+comment6.target=void\ setLocation(Location)
+comment6.text=\r\n\ Place\ the\ plant\ at\ the\ new\ location\ in\ the\ given\ field.\r\n\ @param\ newLocation\ The\ plant's\ new\ location.\r\n
+comment7.params=weather
+comment7.target=void\ incrementGrowth(Weather)
+comment8.params=
+comment8.target=void\ resetGrowth()
+comment9.params=newGrowthLevel
+comment9.target=void\ setGrowthLevel(int)
+numComments=10
